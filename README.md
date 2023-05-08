@@ -1,12 +1,12 @@
 # Documentation
 
-create book - method: POST path: /books
-get list of books - method: GET path: /books
-get book by id - method: GET path: /books/:bookId
-edit book title - method: PATCH path: /books
-add review for a book - method: POST path: /reviews/:bookId
-delete review by id - method: DELETE path: /reviews
-receive list of reviews by book id - method: GET path: /reviews
+1. create book - method: POST path: /books
+2. get list of books - method: GET path: /books
+3. get book by id - method: GET path: /books/:bookId
+4. edit book title - method: PATCH path: /books
+5. add review for a book - method: POST path: /reviews/:bookId
+6. delete review by id - method: DELETE path: /reviews
+7. receive list of reviews by book id - method: GET path: /reviews
 
 # Data
 
@@ -15,5 +15,10 @@ The origin array is commented and stored in file data/books.js(This is for check
 
 # How to start a project
 
-To start a project write a command
+To start a project write a command ```console
 npm run start
+
+```
+
+
+```
