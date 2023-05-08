@@ -3,7 +3,7 @@ const booksRouter = require("./routes/books");
 const reviewsRouter = require("./routes/reviews");
 
 const app = express();
-const port = 3001;
+const port = 3000;
 
 app.use(express.json());
 app.use("/books", booksRouter);
