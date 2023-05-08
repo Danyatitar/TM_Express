@@ -15,10 +15,5 @@ The origin array is commented and stored in file data/books.js(This is for check
 
 # How to start a project
 
-To start a project write a command ```console
+To start a project write a command 
 npm run start
-
-```
-
-
-```
